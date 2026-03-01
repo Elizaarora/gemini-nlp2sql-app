@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS STUDENT (
 """
 
 # Clear old data to avoid duplicates
-# cursor.execute("DELETE FROM STUDENT;")
+cursor.execute("DELETE FROM STUDENT;")
 
 cursor.execute(table_info)
 
